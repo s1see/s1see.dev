@@ -22,7 +22,7 @@ params:
     - name: "telegram"
       url: "https://t.me/s1see"
     - name: "email"
-      url: "mailto:mail@s1see.dev"
+      url: "mailto:contact@s1see.dev"
 
 menu:
   main:
