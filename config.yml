@@ -1,44 +1,44 @@
-baseURL: "http://s1see.dev/"
+baseURL: "https://s1see.dev/"
 languageCode: "en-us"
 title: "s1see.dev"
 
 enableEmoji: true
 
 params:
-    profileMode:
-        enabled: true
-        title: "Hi, I'm s1see 👋" # optional default will be site title
-        subtitle: "Backend | Native App | BlockChain Engineer" # optional default will be site subtitle
-        imageUrl: "https://avatars.githubusercontent.com/u/82143008?s=400&u=9d14b637df40c6e19731f1865eabdb42a49a7f31&v=4" # optional
-        imageTitle: "<title of image as alt>" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
+  profileMode:
+    enabled: true
+    title: "Hi, I'm s1see 👋" # optional default will be site title
+    subtitle: "Backend | Native App | BlockChain Engineer" # optional default will be site subtitle
+    imageUrl: "https://avatars.githubusercontent.com/u/82143008?s=400&u=9d14b637df40c6e19731f1865eabdb42a49a7f31&v=4" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
 
-    socialIcons: # optional
-        - name: "github"
-          url: "https://github.com/s1see"
-        - name: "twitter"
-          url: "https://twitter.com/s_1see"
-        - name: "telegram"
-          url: "https://t.me/s1see"
-        - name: "email"
-          url: "mailto:mail@s1see.dev"
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/s1see"
+    - name: "twitter"
+      url: "https://twitter.com/s_1see"
+    - name: "telegram"
+      url: "https://t.me/s1see"
+    - name: "email"
+      url: "mailto:mail@s1see.dev"
 
 menu:
-    main:
-        - identifier: "About"
-          name: About
-          url: /
-          weight: 10
-        - identifier: "Skill"
-          name: Skill
-          url: /skill
-          weight: 20
-        - identifier: "Works"
-          name: Works
-          url: /works
-          weight: 30
-        - identifier: "Zenn"
-          name: Zenn
-          url: https://zenn.dev/1see
-          weight: 40
+  main:
+    - identifier: "About"
+      name: About
+      url: /
+      weight: 10
+    - identifier: "Skill"
+      name: Skill
+      url: /skill
+      weight: 20
+    - identifier: "Works"
+      name: Works
+      url: /works
+      weight: 30
+    - identifier: "Zenn"
+      name: Zenn
+      url: https://zenn.dev/1see
+      weight: 40
